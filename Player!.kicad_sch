@@ -1608,7 +1608,7 @@
   (symbol (lib_id "MCU_Microchip_ATmega:ATmega328P-P") (at 44.45 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 16753c81-1a3b-47e2-8a5b-29fa84e3a60a)
-    (property "Reference" "U1" (id 0) (at 23.4701 132.1648 0))
+    (property "Reference" "ATMega328" (id 0) (at 23.4701 132.1648 0))
     (property "Value" "ATmega328P-P" (id 1) (at 23.4701 134.9399 0))
     (property "Footprint" "Keyboard Stuff:ATmega328p DIP-28" (id 2) (at 44.45 166.37 0)
       (effects (font (size 1.27 1.27) italic) hide)
@@ -1684,7 +1684,7 @@
   (symbol (lib_id "Device:Crystal_Small") (at 77.47 153.67 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 28eb2027-6d9a-4962-9497-a4b3a97fc4a9)
-    (property "Reference" "Y1" (id 0) (at 76.2 149.86 0)
+    (property "Reference" "Crystal" (id 0) (at 76.2 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Crystal" (id 1) (at 77.47 151.13 0)
@@ -1780,7 +1780,7 @@
   (symbol (lib_id "keyboard_parts:SW_PUSH") (at 77.47 191.77 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 49339521-16b8-463d-be4d-2afce06e238b)
-    (property "Reference" "BOOT1" (id 0) (at 77.47 185.293 0))
+    (property "Reference" "Boot" (id 0) (at 77.47 185.293 0))
     (property "Value" "BOOT" (id 1) (at 77.47 187.6044 0))
     (property "Footprint" "Keyboard_Stuff:SW_PUSH_6mm" (id 2) (at 77.47 191.77 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -1830,7 +1830,7 @@
   (symbol (lib_id "Device:LED") (at 143.51 207.645 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 56d3b62a-1ebf-4e13-b8a1-2c403d0824ee)
-    (property "Reference" "LED1" (id 0) (at 141.9225 202.4085 0))
+    (property "Reference" "Power" (id 0) (at 141.9225 202.4085 0))
     (property "Value" "POWERLED" (id 1) (at 141.9225 205.1836 0))
     (property "Footprint" "Keyboard_Stuff:LED_D3.0mm" (id 2) (at 143.51 207.645 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1910,7 +1910,7 @@
   (symbol (lib_id "keyboard_parts:SW_PUSH") (at 79.375 173.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 6d8c26be-6a42-402b-acee-7b1a9d70afbd)
-    (property "Reference" "RESET1" (id 0) (at 79.375 167.513 0))
+    (property "Reference" "Reset" (id 0) (at 79.375 167.513 0))
     (property "Value" "RESET" (id 1) (at 79.375 169.8244 0))
     (property "Footprint" "Keyboard_Stuff:SW_PUSH_6mm" (id 2) (at 79.375 173.99 0)
       (effects (font (size 1.524 1.524)) hide)
@@ -2390,8 +2390,11 @@
     (path "/06ddc79d-c8e9-42b5-bcfb-8561dc68b0f6"
       (reference "#PWR021") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/16753c81-1a3b-47e2-8a5b-29fa84e3a60a"
+      (reference "ATMega328") (unit 1) (value "ATmega328P-P") (footprint "Keyboard Stuff:ATmega328p DIP-28")
+    )
     (path "/49339521-16b8-463d-be4d-2afce06e238b"
-      (reference "BOOT1") (unit 1) (value "BOOT") (footprint "Keyboard_Stuff:SW_PUSH_6mm")
+      (reference "Boot") (unit 1) (value "BOOT") (footprint "Keyboard_Stuff:SW_PUSH_6mm")
     )
     (path "/8a43a549-7c53-4159-9079-e3706117cb9f"
       (reference "C1") (unit 1) (value "22p") (footprint "Keyboard_Stuff:C_Disc_D3.0mm_W1.6mm_P2.50mm")
@@ -2408,6 +2411,9 @@
     (path "/d8a22522-8f35-4cf0-bdb3-d610f9bb5c31"
       (reference "C5") (unit 1) (value "4.7u") (footprint "Keyboard_Stuff:CP_Radial_D4.0mm_P1.50mm")
     )
+    (path "/28eb2027-6d9a-4962-9497-a4b3a97fc4a9"
+      (reference "Crystal") (unit 1) (value "Crystal") (footprint "Keyboard Stuff:Crystal_HC49-4H_Vertical")
+    )
     (path "/013d12e2-bc18-4c37-b184-538605215685"
       (reference "DN1") (unit 1) (value "3.6V") (footprint "Keyboard_Stuff:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp")
     )
@@ -2418,7 +2424,7 @@
       (reference "J1") (unit 1) (value "USB4085-GF-A_REVA4") (footprint "Keyboard Stuff:USB_C_Receptacle_GCT_USB4085")
     )
     (path "/56d3b62a-1ebf-4e13-b8a1-2c403d0824ee"
-      (reference "LED1") (unit 1) (value "POWERLED") (footprint "Keyboard_Stuff:LED_D3.0mm")
+      (reference "Power") (unit 1) (value "POWERLED") (footprint "Keyboard_Stuff:LED_D3.0mm")
     )
     (path "/eaf0749f-fc67-4f3c-9a2d-cfa1273640a6"
       (reference "R1") (unit 1) (value "1.5K") (footprint "Keyboard Stuff:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
@@ -2442,7 +2448,7 @@
       (reference "R7") (unit 1) (value "1.5k") (footprint "Keyboard_Stuff:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal")
     )
     (path "/6d8c26be-6a42-402b-acee-7b1a9d70afbd"
-      (reference "RESET1") (unit 1) (value "RESET") (footprint "Keyboard_Stuff:SW_PUSH_6mm")
+      (reference "Reset") (unit 1) (value "RESET") (footprint "Keyboard_Stuff:SW_PUSH_6mm")
     )
     (path "/7752d938-57d5-41f4-96c4-d071fa08efc1"
       (reference "SW1") (unit 1) (value "RotaryEncoder_Switch") (footprint "Keyboard_Stuff:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm")
@@ -2458,12 +2464,6 @@
     )
     (path "/dc722d5e-fc50-4cf8-9698-36b2a7c60768"
       (reference "SW5") (unit 1) (value "SW_Push") (footprint "Keyboard Stuff:Player! 1u PCB")
-    )
-    (path "/16753c81-1a3b-47e2-8a5b-29fa84e3a60a"
-      (reference "U1") (unit 1) (value "ATmega328P-P") (footprint "Keyboard Stuff:ATmega328p DIP-28")
-    )
-    (path "/28eb2027-6d9a-4962-9497-a4b3a97fc4a9"
-      (reference "Y1") (unit 1) (value "Crystal") (footprint "Keyboard Stuff:Crystal_HC49-4H_Vertical")
     )
   )
 )

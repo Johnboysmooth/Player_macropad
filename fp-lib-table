@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Numper!-backups")(type "KiCad")(uri "${KIPRJMOD}/Numper!-backups")(options "")(descr ""))
+  (lib (name "Switch_Keyboard_Cherry_MX")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Switch_Keyboard_Cherry_MX.pretty")(options "")(descr ""))
+)

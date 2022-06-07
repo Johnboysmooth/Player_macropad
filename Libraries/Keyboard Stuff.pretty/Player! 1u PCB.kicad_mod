@@ -1,6 +1,6 @@
 (footprint "Player! 1u PCB" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6272B1B1)
+  (tedit 629EAD28)
   (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
   (tags "Cherry MX keyswitch 1.00u PCB")
   (attr through_hole)
@@ -33,9 +33,9 @@
   (pad "" np_thru_hole circle (at 2.54 5.08) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask) (tstamp e63e39d7-6ac0-4ffd-8aa3-1841a4541b55))
   (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask) (tstamp a3668681-09b1-48f0-a7b1-f6b24183a469))
   (pad "2" thru_hole circle (at -6.35 2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask) (tstamp 563c12e4-8f8c-446c-a11f-94f5aa93b994))
-  (model "${KICAD6_3DMODEL_DIR}/Button_Switch_Keyboard.3dshapes/SW_Cherry_MX_1.00u_PCB.wrl"
-    (offset (xyz 0 0 0))
+  (model "${KIPRJMOD}/Libraries/3D/Cherry MX Switch.STEP"
+    (offset (xyz -2.5 -5 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )

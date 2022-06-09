@@ -25,7 +25,7 @@ The custom bootloader was adapted from [coseyfannitutti](https://github.com/cose
 Assuming the flash was successful, it should now be possible to return the microcontroller to the Player! PCB and flash the [firmware] via the USB connection.
 
 # Firmware 
-Player! supports either [Vial](https://get.vial.today/) or [VIA](https://www.caniusevia.com/) for rebinding keys. It is recommended to use Vial to avoid extra steps for setting up VIA.
+Player! supports either [Vial](https://get.vial.today/) or [VIA](https://www.caniusevia.com/) for rebinding keys. It is recommended to use Vial to allow rebinding of the rotary encoder, and avoid additional steps required in VIA.
 
 ### Entering bootloader mode
 Player! will need to be put into bootloader mode to allow QMK to be flashed via the USB connection, see below:
@@ -37,16 +37,16 @@ Player! will need to be put into bootloader mode to allow QMK to be flashed via 
 USBaspLoader will show up in device manager or as a connected device in QMK toolbox when the device has successfully entered bootloader mode, like so:
 ![](/Images/QMK_Toolbox.png)
 
-## Vial Support (Easiest)
+## Vial Support (Recommended)
 
 Vial compatible firmware can be flashed to the Player! using the [player_vial.hex](Firmware/player_vial.hex). 
 1. In QMK_Toolbox, click "Open", then navigate to player_vial.hex and select it. 
 2. Click "Flash". 
 3. Following successful flash completion, press the ```Reset``` button on the PCB. 
 
-The Player! can now be configured and is now ready to use.
+The Player! can now be configured and is now ready to use. The rotary encoder is rebound using the two circular icons on the row above the rest of the buttons.
 
-## VIA Support
+## VIA Support (Not Recommended)
 
 VIA compatible firmware can also be flashed to the Player! using the [player_via.hex](Firmware/player_via.hex), however an additional step is required.
 1. In QMK_Toolbox, click "Open" then navigate to player_vial.hex and select it.

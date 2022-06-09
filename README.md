@@ -44,9 +44,11 @@ Vial compatible firmware can be flashed to the Player! using the [player_vial.he
 2. Click "Flash". 
 3. Following successful flash completion, press the ```Reset``` button on the PCB. 
 
-The Player! can now be configured and is now ready to use. The rotary encoder is rebound using the two circular icons on the row above the rest of the buttons.
+The Player! can now be configured and is now ready to use. The rotary encoder is rebound using the two circular icons on the top row.
 
-## VIA Support (Not Recommended)
+*A current bug means the second layer is incorrectly labelled, however it maintains rebinding functionality.
+
+### VIA Support (Not Recommended)
 
 VIA compatible firmware can also be flashed to the Player! using the [player_via.hex](Firmware/player_via.hex), however an additional step is required.
 1. In QMK_Toolbox, click "Open" then navigate to player_vial.hex and select it.
@@ -56,7 +58,7 @@ VIA compatible firmware can also be flashed to the Player! using the [player_via
 
 Going back to the Configure tab in VIA, the Player! can be configured and is now ready to use.
 
-## Default Configuration
+### Default Configuration
 
 It is not required to use Vial or VIA when using the Player!, the default keymap can be flashed using the [player_default.hex](Firmware/player_default.hex). 
 1. In QMK_Toolbox, click "Open" and navigate to player_default.hex and click "Flash".

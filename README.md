@@ -13,7 +13,7 @@ The Player! uses a usb bootloader which allows the ATMega328 to program itself w
 
 The custom bootloader was adapted from [coseyfannitutti](https://github.com/coseyfannitutti)'s, changing a few pin definitions, programmer choice and adding a port definiton for avrdude in my setup. 
 
-* The bootloader is available [here](https://github.com/Johnboysmooth/USBaspLoader)
+* The bootloader is available [here](https://github.com/Johnboysmooth/USBaspLoader).
 * The instructions for setting up the build environment can be found in the readme.
 * Some changes may be required, such as changing the port or programmer definitions for your setup, which can be found on lines 9 and 44 of the makefile.inc respectively. **Never** edit the makefile directly.
 * Flashing the ATMega328 once the build environment is setup:
@@ -35,7 +35,7 @@ Player! will need to be put into bootloader mode to allow QMK to be flashed via 
 3. Release ```Boot``` switch
 
 USBaspLoader will show up in device manager or as a connected device in QMK toolbox when the device has successfully entered bootloader mode, like so:
-![](/Docs/Images/QMK_Toolbox.png)
+![](/Images/QMK_Toolbox.png)
 
 ## Vial Support (Easiest)
 
@@ -65,6 +65,6 @@ It is not required to use Vial or VIA when using the Player!, the default keymap
 The Player! is now ready to use.
 
 # Images
-![](/Docs/Images/Player_Top.png)
-![](/Docs/Images/Player_Iso.png)
-![](/Docs/Images/Player_Front.png)
+![](/Images/Player_Top.png)
+![](/Images/Player_Iso.png)
+![](/Images/Player_Front.png)

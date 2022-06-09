@@ -35,7 +35,7 @@ Player! will need to be put into bootloader mode to allow QMK to be flashed via 
 3. Release ```Boot``` switch
 
 USBaspLoader will show up in device manager or as a connected device in QMK toolbox when the device has successfully entered bootloader mode, like so:
-![](Docs/Images/QMK_Toolbox.png)
+![](/Docs/Images/QMK_Toolbox.png)
 
 ## Vial Support (Easiest)
 

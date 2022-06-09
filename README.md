@@ -69,4 +69,4 @@ The Player! is now ready to use.
 # Images
 ![](/Images/Player_Top.png)
 ![](/Images/Player_Iso.png)
-![](/Images/Player_Front.png)
+![](/Images/Player_Back.png)

@@ -1,4 +1,4 @@
-19820655626955389
+19823969997586108
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55674,6 +55674,20 @@ Keyboard Stuff
 Crystal_HC49-4H_Vertical
 Crystal THT HC-49-4H http://5hertz.com/pdfs/04404_D.pdf
 THT crystalHC-49-4H
+0
+2
+2
+Keyboard Stuff
+D_DO-35_SOD27_P5.08mm_Horizontal
+Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm
+0
+2
+2
+Keyboard Stuff
+D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp
+Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+Diode DO-35_SOD27 series Axial Vertical pin pitch 5.08mm  length 4mm diameter 2mm
 0
 2
 2

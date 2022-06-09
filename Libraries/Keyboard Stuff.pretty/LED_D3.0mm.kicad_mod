@@ -1,6 +1,6 @@
 (footprint "LED_D3.0mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 629F7054)
+  (tedit 62A2573C)
   (descr "LED, diameter 3.0mm, 2 pins")
   (tags "LED diameter 3.0mm 2 pins")
   (attr through_hole)
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0bdaf87a-2674-40d5-8a2b-e8f6290f20ea)
   )
-  (fp_text value "LED_D3.0mm" (at 1.27 2.96) (layer "F.Fab")
+  (fp_text value "LED_D3.0mm" (at 1.27 2.96) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 480e2215-0440-4c25-b30c-e7abdd527792)
   )

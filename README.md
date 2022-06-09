@@ -3,9 +3,10 @@
 Player! is a five button macropad originally designed to accomodate changing music settings in Spotify without tabbing into the Spotify client. By default it is programmed to use the built-in media keys in Windows, which can be further optimised with global hotkeys using [Toastify](https://github.com/aleab/toastify).
 
 Using four cherry compatible switches, Player! provides dedicated keys for pausing/playing music -  returning to a previous song, and skipping to the next song. The fourth switch remains user programmable, binded to 'insert' by default to be used as dedicated Discord mute key. A rotary encoder allows for volume control, with a toggle function bound to its embedded switch to allow rotary control of rewinding and fast-forwarding music.
-
-## License
-<br />Player! is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License </a>
+# Images
+![](/Images/Player_Top.png)
+![](/Images/Player_Iso.png)
+![](/Images/Player_Back.png)
 
 # Bootloader Information
 
@@ -66,7 +67,5 @@ It is not required to use Vial or VIA when using the Player!, the default keymap
 
 The Player! is now ready to use.
 
-# Images
-![](/Images/Player_Top.png)
-![](/Images/Player_Iso.png)
-![](/Images/Player_Back.png)
+## License
+<br />Player! is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License </a>

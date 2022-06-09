@@ -8,6 +8,8 @@ Using four cherry compatible switches, Player! provides dedicated keys for pausi
 ![](/Images/Player_Iso.png)
 ![](/Images/Player_Back.png)
 
+# [Bill of Materials](https://octopart.com/bom-tool/iGNVRgwb)
+
 # Bootloader Information
 
 The Player! uses a usb bootloader which allows the ATMega328 to program itself with QMK, namely USBaspLoader.
@@ -47,7 +49,7 @@ Vial compatible firmware can be flashed to the Player! using the [player_vial.he
 
 The Player! can now be configured and is now ready to use. The rotary encoder is rebound using the two circular icons on the top row.
 
-*A current bug means the second layer is incorrectly labelled, however it maintains rebinding functionality.
+*A current bug means the second layer is incorrectly labelled, however it maintains functionality.
 
 ### VIA Support (Not Recommended)
 

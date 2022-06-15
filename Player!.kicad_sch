@@ -1705,7 +1705,7 @@
     (uuid 315cc8b8-91a5-48ab-9789-390f34a7043c)
     (property "Reference" "J1" (id 0) (at 36.83 219.5535 0))
     (property "Value" "USB4085-GF-A_REVA4" (id 1) (at 36.83 222.3286 0))
-    (property "Footprint" "Keyboard Stuff:USB_C_Receptacle_GCT_USB4085" (id 2) (at 36.83 241.3 0)
+    (property "Footprint" "Keyboard Stuff:GCT_USB4085-GF-A_REVA4" (id 2) (at 36.83 241.3 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 36.83 241.3 0)
@@ -2421,7 +2421,7 @@
       (reference "DP1") (unit 1) (value "3.6V") (footprint "Keyboard Stuff:D_DO-35_SOD27_P5.08mm_Horizontal")
     )
     (path "/315cc8b8-91a5-48ab-9789-390f34a7043c"
-      (reference "J1") (unit 1) (value "USB4085-GF-A_REVA4") (footprint "Keyboard Stuff:USB_C_Receptacle_GCT_USB4085")
+      (reference "J1") (unit 1) (value "USB4085-GF-A_REVA4") (footprint "Keyboard Stuff:GCT_USB4085-GF-A_REVA4")
     )
     (path "/56d3b62a-1ebf-4e13-b8a1-2c403d0824ee"
       (reference "Power1") (unit 1) (value "POWERLED") (footprint "Keyboard_Stuff:LED_D3.0mm")

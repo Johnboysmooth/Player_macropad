@@ -1,6 +1,6 @@
 (footprint "Crystal_HC49-4H_Vertical" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62A1FBE1)
+  (tedit 62A8AE2D)
   (descr "Crystal THT HC-49-4H http://5hertz.com/pdfs/04404_D.pdf")
   (tags "THT crystalHC-49-4H")
   (attr through_hole)
@@ -34,7 +34,7 @@
   (fp_arc (start 5.44 -2) (mid 7.44 0) (end 5.44 2) (layer "F.Fab") (width 0.1) (tstamp b78043a5-7a02-4945-aa76-579ca8313cb9))
   (pad "1" thru_hole circle (at 0 0) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask) (tstamp 97d7f8c9-b0b4-436a-9b5e-5ccb959ea185))
   (pad "2" thru_hole circle (at 4.88 0) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask) (tstamp 0536025a-6414-4951-bfd6-905537685d7e))
-  (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC49-4H_Vertical.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC49-4H_Vertical.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

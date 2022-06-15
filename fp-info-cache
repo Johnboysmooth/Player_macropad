@@ -1,4 +1,4 @@
-19823969997586108
+19820673400248653
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55699,6 +55699,13 @@ Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 
 2
 2
 Keyboard Stuff
+GCT_USB4085-GF-A_REVA4
+
+
+0
+20
+20
+Keyboard Stuff
 LED_D3.0mm
 LED, diameter 3.0mm, 2 pins
 LED diameter 3.0mm 2 pins
@@ -55720,13 +55727,6 @@ Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.
 2
 2
 Keyboard Stuff
-Rotary Encoder
-Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC12E/EC12E1240405.html & http://cdn-reichelt.de/documents/datenblatt/F100/402097STEC12E08.PDF
-rotary encoder
-0
-7
-6
-Keyboard Stuff
 RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC12E/EC12E1240405.html & http://cdn-reichelt.de/documents/datenblatt/F100/402097STEC12E08.PDF
 rotary encoder
@@ -55740,20 +55740,6 @@ tact sw push 6mm
 0
 4
 2
-Keyboard Stuff
-USB C Connector
-USB 2.0 Type C Receptacle, https://gct.co/Files/Drawings/USB4085.pdf
-USB Type-C Receptacle Through-hole Right angle
-0
-20
-17
-Keyboard Stuff
-USB_C_Receptacle_GCT_USB4085
-USB 2.0 Type C Receptacle, https://gct.co/Files/Drawings/USB4085.pdf
-USB Type-C Receptacle Through-hole Right angle
-0
-20
-17
 Keyboard Stuff
 Zener Diode
 Diode, DO-35_SOD27 series, Axial, Vertical, pin pitch=5.08mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf

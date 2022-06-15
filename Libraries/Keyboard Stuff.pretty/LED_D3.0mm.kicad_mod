@@ -1,6 +1,6 @@
 (footprint "LED_D3.0mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62A2573C)
+  (tedit 62A8B45B)
   (descr "LED, diameter 3.0mm, 2 pins")
   (tags "LED diameter 3.0mm 2 pins")
   (attr through_hole)
@@ -27,7 +27,7 @@
   (fp_circle (center 1.27 0) (end 2.77 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 2553436b-e9c9-464d-a06c-d950550e3da2))
   (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask) (tstamp bb7e4f65-7f78-41ce-8d52-8764303c47f1))
   (pad "2" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask) (tstamp 684dd7fc-eab4-4bab-96df-b884c79be082))
-  (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm.step"
     (offset (xyz 0 0 -3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

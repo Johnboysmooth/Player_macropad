@@ -1,6 +1,6 @@
 (footprint "C_Disc_D3.0mm_W1.6mm_P2.50mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62A1FED5)
+  (tedit 62A8AEA6)
   (descr "C, Disc series, Radial, pin pitch=2.50mm, , diameter*width=3.0*1.6mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
   (tags "C Disc series Radial pin pitch 2.50mm  diameter 3.0mm width 1.6mm Capacitor")
   (attr through_hole)
@@ -24,7 +24,7 @@
   (fp_line (start 2.75 -0.8) (end -0.25 -0.8) (layer "F.Fab") (width 0.1) (tstamp aba076c8-6076-4aad-ba55-ee571a49789c))
   (pad "1" thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp 14dfd598-a72d-4fe1-aa24-f16a07e972b3))
   (pad "2" thru_hole circle (at 2.5 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask) (tstamp b4169a8e-18b5-44ca-805a-3c8b3f7f3c21))
-  (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D3.0mm_W1.6mm_P2.50mm.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D3.0mm_W1.6mm_P2.50mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

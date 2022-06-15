@@ -381,7 +381,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../Player! ATmega328/3D/Player!.step",
       "vrml": ""
     },
     "page_layout_descr_file": "C:/Users/johnp/Documents/KiCad/6.0/template/blank.kicad_wks"

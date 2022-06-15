@@ -1,6 +1,6 @@
 (footprint "CP_Radial_D4.0mm_P1.50mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62A1FFD5)
+  (tedit 62A8AF2E)
   (descr "CP, Radial series, Radial, pin pitch=1.50mm, , diameter=4mm, Electrolytic Capacitor")
   (tags "CP Radial series Radial pin pitch 1.50mm  diameter 4mm Electrolytic Capacitor")
   (property "Sheetfile" "Player!.kicad_sch")
@@ -120,7 +120,7 @@
   (fp_circle (center 0.75 0) (end 2.75 0) (layer "F.Fab") (width 0.1) (fill none) (tstamp 13aed896-c368-45df-8c8e-b5276d2260c5))
   (pad "1" thru_hole rect (at 0 0) (size 1.2 1.2) (drill 0.6) (layers *.Cu *.Mask) (tstamp 5e4b2c9f-9bc2-49ff-aea8-a1c7d303de00))
   (pad "2" thru_hole circle (at 1.5 0) (size 1.2 1.2) (drill 0.6) (layers *.Cu *.Mask) (tstamp 997daa6e-1d41-447a-bc02-7a56c0ee37fb))
-  (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D4.0mm_P1.50mm.wrl"
+  (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/CP_Radial_D4.0mm_P1.50mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,4 +1,4 @@
-# Player! V1.1
+# Player! V1.2
 
 Player! is a five button macropad originally designed to accomodate changing music settings in Spotify without tabbing into the Spotify client. By default it is programmed to use the built-in media keys in Windows, which can be further optimised with global hotkeys using [Toastify](https://github.com/aleab/toastify).
 

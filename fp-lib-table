@@ -1,4 +1,3 @@
 (fp_lib_table
-  (lib (name "Numper!-backups")(type "KiCad")(uri "${KIPRJMOD}/Numper!-backups")(options "")(descr ""))
   (lib (name "Keyboard Stuff")(type "KiCad")(uri "${KIPRJMOD}/Libraries/Keyboard Stuff.pretty")(options "")(descr ""))
 )
